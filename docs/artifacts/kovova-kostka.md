@@ -1,3 +1,8 @@
+---
+title: Kovová kostka
+vyskyt:
+  - Epilog 2
+---
 # Kovová kostka
 
 - **Výskyt:** [Epilog 2](../web-articles/epilog-2.md)

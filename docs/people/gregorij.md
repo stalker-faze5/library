@@ -1,3 +1,10 @@
+---
+title: Gregorij
+frakce: Protivník
+funkce: generál
+vyskyt:
+  - Epilog 1
+---
 # Gregorij
 
 - **Hodnost:** generál

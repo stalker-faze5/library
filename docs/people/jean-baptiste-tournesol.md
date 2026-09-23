@@ -1,3 +1,10 @@
+---
+title: Jean-Baptiste Tournesol
+frakce: Koncern Ponce
+funkce: vědec
+vyskyt:
+  - Epilog 2
+---
 # Jean-Baptiste Tournesol ("pane profesore")
 
 - **Frakce:** [koncern Ponce](../organizations/koncern-ponce.md) (jisté, sedí na poradě koncernu a plní úkoly od Inéz)

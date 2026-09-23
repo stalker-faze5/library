@@ -1,3 +1,9 @@
+---
+title: Koncern Ponce
+typ: frakce
+vyskyt:
+  - Epilog 2
+---
 # Koncern Ponce
 
 - **Sídlo:** mrakodrap v [Barceloně](../places/barcelona.md)

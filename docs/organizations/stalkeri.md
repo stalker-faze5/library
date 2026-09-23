@@ -1,3 +1,9 @@
+---
+title: Stalkeři
+typ: skupina
+vyskyt:
+  - Epilog 1
+---
 # Stalkeři
 
 - **Výskyt:** [Epilog 1](../web-articles/epilog-1.md)

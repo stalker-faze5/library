@@ -1,3 +1,7 @@
+---
+title: Epilog 1
+pohled: Protivník
+---
 Gregorij seděl za masivním dubovým stolem a mlčky hleděl na titulní stránku závěrečné zprávy operace Exoduz. Chvíli jen poklepával prsty o desku stolu, než si unaveně promnul spánky.
 
 „Takže… operace skončila naprostým krachem?“

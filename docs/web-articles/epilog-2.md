@@ -1,3 +1,7 @@
+---
+title: Epilog 2
+pohled: Koncern Ponce
+---
 Načervenalé světlo zapadajícího slunce se valilo vysokými okny v horním patře mrakodrapu a vrhalo dlouhé, tísnivé stíny napříč jednacím sálem. Místnost byla dokonalým snoubením chladu a nehorázného luxusu – leštěná ocel, sklo a tmavý vysoký koberec kontrastovaly s masivním dřevěným stolem uprostřed, do jehož desky byly před každou židlí zapuštěny obrazovky. Ze stropu visel těžký křišťálový lustr a na stěnách se skvěla plátna klasických mistrů po boku abstraktních kompozic od Picassa.
 
 V rohu u okna, skrytá za bohatě vyřezávaným paravánem, od stolu neviditelná, stála dvě kožená křesla, stolek a intarzovaná skříňka, na níž se v záři večerního slunce leskly broušené poháry a karafa s jantarovou tekutinou.

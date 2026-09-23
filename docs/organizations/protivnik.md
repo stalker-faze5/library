@@ -1,3 +1,10 @@
+---
+title: Protivník
+typ: frakce
+vyskyt:
+  - Epilog 1
+  - Epilog 2
+---
 # Protivník (strana generála Gregorije)
 
 - **Výskyt:** [Epilog 1](../web-articles/epilog-1.md), [Epilog 2](../web-articles/epilog-2.md)

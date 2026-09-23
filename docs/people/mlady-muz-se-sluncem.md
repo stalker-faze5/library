@@ -1,3 +1,10 @@
+---
+title: Mladý muž s odznakem slunce
+frakce: Protivník
+funkce: poradce
+vyskyt:
+  - Epilog 1
+---
 # Mladý muž s odznakem slunce
 
 - **Jméno:** neznámé

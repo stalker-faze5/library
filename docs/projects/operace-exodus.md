@@ -1,3 +1,11 @@
+---
+title: Operace Exodus
+strana: Protivník
+stav: neúspěch
+vyskyt:
+  - Epilog 1
+  - Epilog 2
+---
 # Operace Exodus
 
 - **Pravopis:** v Epilogu 1 "Exoduz", v Epilogu 2 "Exodus".

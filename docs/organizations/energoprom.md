@@ -1,3 +1,9 @@
+---
+title: Energoprom
+typ: organizace
+vyskyt:
+  - Epilog 1
+---
 # Energoprom
 
 - **Výskyt:** [Epilog 1](../web-articles/epilog-1.md)

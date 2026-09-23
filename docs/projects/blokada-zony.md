@@ -1,3 +1,11 @@
+---
+title: Blokáda Zóny
+strana: Protivník
+stav: připravuje se
+vyskyt:
+  - Epilog 1
+  - Epilog 2
+---
 # Blokáda Zóny
 
 - **Strana:** [Protivník](../organizations/protivnik.md)

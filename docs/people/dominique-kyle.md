@@ -1,3 +1,10 @@
+---
+title: Dominique Kyle
+frakce: Koncern Ponce
+funkce: zpravodajství a bezpečnost (odhad)
+vyskyt:
+  - Epilog 2
+---
 # Dominique Kyle
 
 - **Frakce:** [koncern Ponce](../organizations/koncern-ponce.md) (jisté, sedí na poradě koncernu a plní úkoly od Inéz)

@@ -1,3 +1,10 @@
+---
+title: Plán koncernu Ponce
+strana: Koncern Ponce
+stav: probíhá
+vyskyt:
+  - Epilog 2
+---
 # Plán koncernu Ponce
 
 - **Strana:** [koncern Ponce](../organizations/koncern-ponce.md)

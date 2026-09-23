@@ -1,3 +1,10 @@
+---
+title: Klaus Schreck
+frakce: Koncern Ponce
+funkce: CFO
+vyskyt:
+  - Epilog 2
+---
 # Klaus Schreck
 
 - **Frakce:** [koncern Ponce](../organizations/koncern-ponce.md) (jisté, sedí na poradě koncernu a plní úkoly od Inéz)

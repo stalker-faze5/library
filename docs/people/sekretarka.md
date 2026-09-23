@@ -1,3 +1,10 @@
+---
+title: Sekretářka
+frakce: Protivník
+funkce: sekretářka (nejspíš krytí)
+vyskyt:
+  - Epilog 1
+---
 # Sekretářka
 
 - **Jméno:** neznámé

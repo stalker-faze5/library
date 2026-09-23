@@ -1,3 +1,10 @@
+---
+title: Alan Schaefer
+frakce: Koncern Ponce
+funkce: operace (odhad)
+vyskyt:
+  - Epilog 2
+---
 # Alan Schaefer
 
 - **Frakce:** [koncern Ponce](../organizations/koncern-ponce.md) (jisté, sedí na poradě koncernu a plní úkoly od Inéz). Jeho "kontakt" je nejspíš uvnitř Protivníka.

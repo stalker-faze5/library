@@ -1,9 +1,20 @@
 # Pages CMS config: https://pagescms.org/docs/configuration/
 #
-# Collections deliberately have no `fields`. Pages CMS then opens the raw file
-# editor, which saves the text exactly as typed. The rich-text editor could
-# rewrite Markdown and the relative links like ../people/x.md that tie the
-# files together, so we avoid it.
+# Every note is Markdown with a small YAML frontmatter block. The frontmatter
+# fills the list columns, search and sorting in Pages CMS, and gives AI tools
+# fields to filter on. The note text is the `body` field, edited in the
+# WYSIWYG editor. Keep the links in the body relative (../people/x.md) so
+# they work on GitHub and in a local clone.
+#
+# Shared field definitions use YAML anchors (&name) and aliases (*name).
+
+media:
+  input: docs/media
+  # Notes sit one folder below docs/, so ../media reaches docs/media from
+  # any of them. Images inserted into the body get a relative path that
+  # GitHub renders.
+  output: ../media
+  categories: [image]
 
 content:
   - name: readme
@@ -15,39 +26,152 @@ content:
     label: Postavy
     type: collection
     path: docs/people
-    # Trial of the WYSIWYG editor on this one collection. Pages CMS stores
-    # the editor text in the `body` field and may write an empty frontmatter
-    # block on save. Check the git diff of the first edited file before
-    # switching the other collections.
+    filename: "{primary}.md"
+    view:
+      fields: [title, frakce, funkce, vyskyt]
+      primary: title
+      search: [title, frakce, funkce, body]
+      sort: [title, frakce]
+      default:
+        sort: title
+        order: asc
     fields:
-      - name: body
+      - &title
+        name: title
+        label: Název
+        type: string
+        required: true
+      - &frakce
+        name: frakce
+        label: Frakce
+        type: select
+        options:
+          values: [Protivník, Koncern Ponce, Stalkeři, Neznámá]
+      - name: funkce
+        label: Funkce
+        type: string
+      - &vyskyt
+        name: vyskyt
+        label: Výskyt
+        type: select
+        options:
+          multiple: true
+          values: [Epilog 1, Epilog 2]
+      - &obrazek
+        name: obrazek
+        label: Obrázek
+        type: image
+      - &body
+        name: body
         label: Obsah
         type: rich-text
         options:
           format: markdown
-          media: false
 
   - name: organizations
     label: Frakce a organizace
     type: collection
     path: docs/organizations
+    filename: "{primary}.md"
+    view:
+      fields: [title, typ, vyskyt]
+      primary: title
+      search: [title, body]
+      default:
+        sort: title
+        order: asc
+    fields:
+      - *title
+      - name: typ
+        label: Typ
+        type: select
+        options:
+          values: [frakce, organizace, skupina]
+      - *vyskyt
+      - *obrazek
+      - *body
 
   - name: projects
     label: Projekty a operace
     type: collection
     path: docs/projects
+    filename: "{primary}.md"
+    view:
+      fields: [title, strana, stav, vyskyt]
+      primary: title
+      search: [title, body]
+      sort: [title, strana, stav]
+      default:
+        sort: title
+        order: asc
+    fields:
+      - *title
+      - name: strana
+        label: Strana
+        type: select
+        options:
+          values: [Protivník, Koncern Ponce, Stalkeři, Neznámá]
+      - name: stav
+        label: Stav
+        type: select
+        options:
+          values: [připravuje se, probíhá, neúspěch, úspěch, neznámý]
+      - *vyskyt
+      - *body
 
   - name: artifacts
     label: Artefakty
     type: collection
     path: docs/artifacts
+    filename: "{primary}.md"
+    view:
+      fields: [title, vyskyt]
+      primary: title
+      search: [title, body]
+      default:
+        sort: title
+        order: asc
+    fields:
+      - *title
+      - *vyskyt
+      - *obrazek
+      - *body
 
   - name: places
     label: Místa
     type: collection
     path: docs/places
+    filename: "{primary}.md"
+    view:
+      fields: [title, vyskyt]
+      primary: title
+      search: [title, body]
+      default:
+        sort: title
+        order: asc
+    fields:
+      - *title
+      - *vyskyt
+      - *obrazek
+      - *body
 
   - name: web-articles
     label: Epilogy (zdroj)
     type: collection
     path: docs/web-articles
+    filename: "{primary}.md"
+    view:
+      fields: [title, pohled]
+      primary: title
+      search: [title, body]
+      default:
+        sort: title
+        order: asc
+    fields:
+      - *title
+      - name: pohled
+        label: Z pohledu
+        type: select
+        options:
+          values: [Protivník, Koncern Ponce, Stalkeři, Neznámá]
+      - *body

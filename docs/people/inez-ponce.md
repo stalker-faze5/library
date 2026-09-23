@@ -1,3 +1,10 @@
+---
+title: Inéz Ponce
+frakce: Koncern Ponce
+funkce: šéfka koncernu
+vyskyt:
+  - Epilog 2
+---
 # Inéz Ponce ("Dona Ponce")
 
 - **Funkce:** šéfka [koncernu Ponce](../organizations/koncern-ponce.md)

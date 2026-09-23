@@ -1,3 +1,10 @@
+---
+title: Leon Ponce
+frakce: Koncern Ponce
+funkce: bývalý šéf koncernu
+vyskyt:
+  - Epilog 2
+---
 # Leon Ponce
 
 - **Funkce:** bývalý šéf [koncernu Ponce](../organizations/koncern-ponce.md), otec [Inéz](inez-ponce.md)

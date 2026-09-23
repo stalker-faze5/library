@@ -1,3 +1,9 @@
+---
+title: Zóna
+vyskyt:
+  - Epilog 1
+  - Epilog 2
+---
 # Zóna
 
 - **Výskyt:** [Epilog 1](../web-articles/epilog-1.md), [Epilog 2](../web-articles/epilog-2.md)
