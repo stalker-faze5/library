@@ -1,0 +1,42 @@
+# Pages CMS config: https://pagescms.org/docs/configuration/
+#
+# Collections deliberately have no `fields`. Pages CMS then opens the raw file
+# editor, which saves the text exactly as typed. The rich-text editor could
+# rewrite Markdown and the relative links like ../people/x.md that tie the
+# files together, so we avoid it.
+
+content:
+  - name: readme
+    label: Rozcestník
+    type: file
+    path: docs/README.md
+
+  - name: people
+    label: Postavy
+    type: collection
+    path: docs/people
+
+  - name: organizations
+    label: Frakce a organizace
+    type: collection
+    path: docs/organizations
+
+  - name: projects
+    label: Projekty a operace
+    type: collection
+    path: docs/projects
+
+  - name: artifacts
+    label: Artefakty
+    type: collection
+    path: docs/artifacts
+
+  - name: places
+    label: Místa
+    type: collection
+    path: docs/places
+
+  - name: web-articles
+    label: Epilogy (zdroj)
+    type: collection
+    path: docs/web-articles
