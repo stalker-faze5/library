@@ -15,6 +15,17 @@ content:
     label: Postavy
     type: collection
     path: docs/people
+    # Trial of the WYSIWYG editor on this one collection. Pages CMS stores
+    # the editor text in the `body` field and may write an empty frontmatter
+    # block on save. Check the git diff of the first edited file before
+    # switching the other collections.
+    fields:
+      - name: body
+        label: Obsah
+        type: rich-text
+        options:
+          format: markdown
+          media: false
 
   - name: organizations
     label: Frakce a organizace
