@@ -23,3 +23,7 @@ Rodinný koncern s legálními i nelegálními příjmy (viz [Klaus Schreck](../
 ## Projekty
 
 - [Plán koncernu Ponce](../projects/plan-koncernu-ponce.md)
+
+## Souvislost se STALKER 3.3
+
+Koncern chce proniknout do vládních grantů a naverbovat vědce v Zóně. Z grantů žije [Jasná Obloha](jasna-obloha.md).

@@ -3,6 +3,7 @@ title: Zóna
 vyskyt:
   - Epilog 1
   - Epilog 2
+  - STALKER 3.3
 ---
 # Zóna
 
@@ -13,3 +14,13 @@ vyskyt:
 Podle [Jean-Baptiste Tournesola](../people/jean-baptiste-tournesol.md) nabízí vzorky pro léky (hojení ran, odumírání nádorů), supravodiče za pokojové teploty a extrémně odolné materiály. Odtud je i [kovová kostka](../artifacts/kovova-kostka.md) Leona Ponce.
 
 Chystá se [blokáda Zóny](../projects/blokada-zony.md).
+
+## Ze STALKER 3.3
+
+Oficiálně "Zóna vyloučení ChNPP". Podle hypotézy [Jasné Oblohy](../organizations/jasna-obloha.md) vznikla spuštěním [projektu S.A.T.A.N.](../projects/projekt-satan.md) a rozpíná se s každým [blowoutem](../anomalies/blowout.md).
+
+- místa: [objekt Lambda](objekt-lambda.md), [Bar](bar.md), [Nemocnice](nemocnice.md), [Ghost Town](ghost-town.md), [kostel v Oáze](kostel-v-oaze.md), [komplex Energoprom](komplex-energoprom.md), [základna Monolitu](zakladna-monolitu.md), [pavoučí hnízdo](pavouci-hnizdo.md)
+- anomálie: [chmýří](../anomalies/chmyri.md), [ježibabí sliz](../anomalies/jezibabi-sliz.md), [elektra](../anomalies/elektra.md), [masomlejn](../anomalies/masomlejn.md), [zvuková](../anomalies/zvukova-anomalie.md), [Oáza](../anomalies/oaza.md)
+- jevy: [znovuzrození](../anomalies/znovuzrozeni.md), [psi záření](../anomalies/psi-zareni.md)
+- měna: zarjady
+- vliv na lidi: [Vliv Zóny na psychiku](../research/vliv-zony-na-psychiku.md), [drogy Zóny](../research/drogy-zony.md)

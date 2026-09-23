@@ -46,7 +46,7 @@ content:
         label: Frakce
         type: select
         options:
-          values: [Protivník, Koncern Ponce, Stalkeři, Neznámá]
+          values: [Protivník, Koncern Ponce, Jasná Obloha, Monolit, Energoprom, Żelazna Góra, Svoboda, Vrány, Ščupaky, Dobrovolnická lékařská služba, Nezávislí, Stalkeři, Neznámá]
       - name: funkce
         label: Funkce
         type: string
@@ -56,7 +56,7 @@ content:
         type: select
         options:
           multiple: true
-          values: [Epilog 1, Epilog 2]
+          values: [Epilog 1, Epilog 2, STALKER 3.3]
       - &obrazek
         name: obrazek
         label: Obrázek
@@ -110,7 +110,7 @@ content:
         label: Strana
         type: select
         options:
-          values: [Protivník, Koncern Ponce, Stalkeři, Neznámá]
+          values: [Protivník, Koncern Ponce, Jasná Obloha, Monolit, Energoprom, Żelazna Góra, Svoboda, Vrány, Ščupaky, Dobrovolnická lékařská služba, Nezávislí, Stalkeři, Neznámá]
       - name: stav
         label: Stav
         type: select
@@ -155,6 +155,87 @@ content:
       - *obrazek
       - *body
 
+  - name: mutants
+    label: Mutanti, fauna a flora
+    type: collection
+    path: docs/mutants
+    filename: "{primary}.md"
+    view:
+      fields: [title, typ, vyskyt]
+      primary: title
+      search: [title, body]
+      default:
+        sort: title
+        order: asc
+    fields:
+      - *title
+      - name: typ
+        label: Typ
+        type: select
+        options:
+          values: [mutant, fauna, flora]
+      - *vyskyt
+      - *obrazek
+      - *body
+
+  - name: anomalies
+    label: Anomálie a jevy
+    type: collection
+    path: docs/anomalies
+    filename: "{primary}.md"
+    view:
+      fields: [title, vyskyt]
+      primary: title
+      search: [title, body]
+      default:
+        sort: title
+        order: asc
+    fields:
+      - *title
+      - *vyskyt
+      - *obrazek
+      - *body
+
+  - name: research
+    label: Výzkumy a dokumenty
+    type: collection
+    path: docs/research
+    filename: "{primary}.md"
+    view:
+      fields: [title, autor, vyskyt]
+      primary: title
+      search: [title, autor, body]
+      sort: [title, autor]
+      default:
+        sort: title
+        order: asc
+    fields:
+      - *title
+      - name: autor
+        label: Autor
+        type: string
+      - name: zdroj
+        label: Zdrojový soubor
+        type: string
+      - *vyskyt
+      - *body
+
+  - name: meta
+    label: Mimoherní poznámky
+    type: collection
+    path: docs/meta
+    filename: "{primary}.md"
+    view:
+      fields: [title]
+      primary: title
+      default:
+        sort: title
+        order: asc
+    fields:
+      - *title
+      - *vyskyt
+      - *body
+
   - name: web-articles
     label: Epilogy (zdroj)
     type: collection
@@ -173,5 +254,5 @@ content:
         label: Z pohledu
         type: select
         options:
-          values: [Protivník, Koncern Ponce, Stalkeři, Neznámá]
+          values: [Protivník, Koncern Ponce, Jasná Obloha, Monolit, Energoprom, Żelazna Góra, Svoboda, Vrány, Ščupaky, Dobrovolnická lékařská služba, Nezávislí, Stalkeři, Neznámá]
       - *body

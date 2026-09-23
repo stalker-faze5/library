@@ -25,3 +25,7 @@ Od [sekretářky](sekretarka.md) dostane černou složku PŘÍSNĚ TAJNÉ s náv
 - [Mladý muž s odznakem slunce](mlady-muz-se-sluncem.md): poradce, fakticky řídí strategii.
 - [Sekretářka](sekretarka.md): přináší složku Helios.
 - [Energoprom](../organizations/energoprom.md): díky jejich výzkumu objevili [Artefakt Nula](../artifacts/artefakt-nula.md).
+
+## Možná souvislost se STALKER 3.3
+
+V dokumentech k [projektu Marzana](../projects/projekt-marzana.md) vystupuje [Greg](greg.md), který nejspíš vede neetický výzkum smrti pro Energoprom. Jestli jde o Gregorije, nevíme.

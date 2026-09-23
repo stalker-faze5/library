@@ -28,3 +28,7 @@ vyskyt:
 
 - [Energoprom](energoprom.md): jeho výzkum jim umožnil najít [Artefakt Nula](../artifacts/artefakt-nula.md).
 - Chtěli kontrolovat prodej artefaktů a Zónu ekonomicky zlomit. Místo toho vznikla pašerácká síť.
+
+## Souvislost se STALKER 3.3
+
+[Energoprom](energoprom.md) podle STALKER 3.3 provozoval [S.A.T.A.N.](../projects/projekt-satan.md) a [Marzanu](../projects/projekt-marzana.md). Z epilogu plyne, že Protivník z jeho výzkumu těžil. Blokáda Zóny odřízne i vědce, kteří žijí z grantů.

@@ -12,3 +12,7 @@ vyskyt:
 - **Výskyt:** [Epilog 1](../web-articles/epilog-1.md)
 
 V textu je slovo "sekretářka" v uvozovkách, takže nejspíš jen tak vystupuje a ve skutečnosti je něco jiného. Beze slova přinese [Gregorijovi](gregorij.md) černou složku s červeným pruhem PŘÍSNĚ TAJNÉ, na které stojí [HELIOS](../projects/operace-helios.md), a odejde.
+
+## Možná souvislost se STALKER 3.3
+
+Tým projektu S.A.T.A.N. měl všudypřítomnou sekretářku [Sašu (Alexandru)](sasa.md), která nosila dokumenty. Souvislost nepotvrzená.
